@@ -22,8 +22,24 @@ h1{
 
 .container-main{
     max-width: 780px;
-    margin: 50px auto;
+    margin: 50px auto 2px;
     background-color: white;
+}
+
+ol{
+    list-style: none;
+    padding: 10px;
+}
+
+li{
+    padding: 10px;
+}
+
+.etichetta{
+    font-size: small;
+    color: white;
+    border-radius: 12px;
+    padding: 6px;
 }
 
 /* header  */
@@ -64,3 +80,48 @@ a{
     border-radius: 5px;
 }
 
+/* contenuto lista */
+
+.contenuto{
+    margin: 0 auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+
+
+.title{
+    font-size: large;
+    font-weight: 700; 
+}
+
+.row{
+    font-size: 10px;
+}
+
+/* colore etichette */
+
+.dodgerblue{
+    background-color: dodgerblue;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.green{
+    background-color: green;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.lightgreen{
+background-color: lightgreen;
+}
+
+.pink{
+    background-color: pink;
+}
