@@ -88,8 +88,22 @@ a{
     border-bottom-right-radius: 5px;
 }
 
+.spunta{
+    border: 1px solid green;
+    color: green;;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 1px 3px;   
+}
 
-
+.x{
+    color: red;
+    border: 1px solid red;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 1px 3px;   
+    
+}
 
 .title{
     font-size: large;
