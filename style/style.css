@@ -20,6 +20,12 @@ h1{
     vertical-align: middle;
 }
 
+.container-main{
+    max-width: 780px;
+    margin: 50px auto;
+    background-color: white;
+}
+
 /* header  */
 
 .container-header{
@@ -31,3 +37,30 @@ h1{
     height: 70px;
     vertical-align: middle;
 }
+
+/* section button-link */
+
+.button-link{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+button{
+    border: none;
+    margin: 10px 0px 10px 30px;
+    padding: 8px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    font-size: large;
+}
+
+a{
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid grey;
+    color: grey;
+    padding: 8px;
+    border-radius: 5px;
+}
+
